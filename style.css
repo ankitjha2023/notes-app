@@ -1,0 +1,35 @@
+.card{
+    padding: 20px 10px;
+    width: 20rem;
+    background-color: whitesmoke;
+}
+.card button{
+    width: fit-content ;
+    margin: 5px 0px;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    
+}
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    
+
+}
+.model-open{
+    z-index: 9999;
+}
+@media (max-width:768px) {
+    main{
+        margin-top: 150px;
+        
+    }
+    
+    
+}

@@ -8,5 +8,9 @@ This is a simple notes application built with Bootstrap and JavaScript. The app 
 3. Remove a note: Users can delete a note.
 4. Search notes: Users can search for specific notes by entering keywords.
 
+## Screenshot
+![image](https://github.com/ankitjha2023/notes-app/assets/127032700/95009496-a818-44b3-bf95-01d082808dee)
+
+
 ## Github Page
 ('''https://ankitjha2023.github.io/notes-app/''')

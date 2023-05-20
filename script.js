@@ -69,7 +69,7 @@ const addNote = (note)  =>{
     card.innerHTML = `
     
     <h5 class="card-title">${note.title}</h5>
-    <p class="card-text">${note.desc}</p><button class="btn btn-sm btn-warning" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Edit</button><button class="btn btn-sm btn-danger" >Remove</button>
+    <p class="card-text">${note.desc}</p><button class="btn btn-sm btn-warning" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="fa-solid fa-pen-to-square text-light"></i></button><button class="btn btn-sm btn-danger" ><i class="fa-solid fa-trash"></i></button>
     
     `
     notesContainer.appendChild(card)

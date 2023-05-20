@@ -1,13 +1,35 @@
-.card{
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+  body{
+    background-image: url('bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+  .card{
     padding: 20px 10px;
     width: 20rem;
-    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   
+}
+::-webkit-scrollbar{
+    display: none;
 }
 .card button{
     width: fit-content ;
     margin: 5px 0px;
 }
-
+.fa-search{
+    position: absolute;
+    top: 30px;
+    font-size: 25px;
+    right: 18px;
+    
+}
 header{
     width: 100%;
     position: fixed;
@@ -30,6 +52,8 @@ footer{
         margin-top: 150px;
         
     }
-    
+    .fa-search{
+        display: none;
+    }
     
 }
